@@ -35,10 +35,13 @@ const Hero = ({theme}) => {
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut,
                 nemo?
               </p>
-              <button 
-                data-aos="fade-up" data-aos-duration="1500"
-                className="btn bg-primary text-black px-6 py-2 rounded-md
-                hover:bg-primary/80 duration-300">
+              <button
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                className=" btn bg-primary text-black px-6 py-2 rounded-md
+                hover:bg-primary/80 duration-300"
+              >
+                Get Started
               </button>
             </div>
           </div>

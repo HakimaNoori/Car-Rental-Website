@@ -6,6 +6,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
+import CarList from "./components/CarList/CarList";
+import Testimonial from "./components/Testimonial/Testimonial";
+import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
 
@@ -23,7 +27,7 @@ const App = () => {
       element.classList.remove("dark");
       localStorage.setItem("theme", "light");
     }
-  }, [theme]);
+  },[theme]);
 
 // AOS Initialization
   useEffect(() => {
@@ -37,11 +41,15 @@ const App = () => {
   }, []);
   
   return (
-    <div>
+    <div className="bg-white dark:bg-black dark:text-white">
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero theme={theme} />
       <About />
-      <Services/>
+      <Services />
+      <CarList />
+      <Testimonial />
+      <AppStoreBanner />
+      <Contact/>
     </div>
   );
 };

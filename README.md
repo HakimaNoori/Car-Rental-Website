@@ -1,8 +1,10 @@
-# React + Vite
+# Car Rental Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Car Rental Website project is a sleek and user-friendly platform designed to simplify the car rental experience. It offers a modern interface with intuitive navigation, allowing users to browse available cars, view details, and make reservations effortlessly.
 
-Currently, two official plugins are available:
+# Screen Record
+[screen-capture.webm](https://github.com/user-attachments/assets/e4353193-9229-4e5d-81ae-c34f4cf03bd7)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+ 
